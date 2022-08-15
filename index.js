@@ -15,5 +15,3 @@ app.get('*', homeController.notfound)
 app.listen(port)
 
 console.log('Aplicacion corriendo en puerto '+ port)
-console.log(' Usando nodemon')
-console.log(__dirname)
