@@ -5,7 +5,6 @@ function secretHome(req, res) {
     {
         nombre : "Nicole",
         apellido : "Denon"
-
     }
     res.render('index', data)
 }
